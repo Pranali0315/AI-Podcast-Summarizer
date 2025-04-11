@@ -1,6 +1,6 @@
 # 🎧 AI-Podcast Summarizer
 
-**AI-Podcast Summarizer** is an open-source tool designed to generate clean and concise summaries from podcast audio. By processing uploaded audio files using state-of-the-art AI models, it helps users quickly understand the key points of long-form podcast content without listening to the entire episode.
+**AI-Podcast Summarizer** is an open-source tool designed to generate clean and concise summaries from podcast. By processing uploaded links using state-of-the-art AI models, it helps users quickly understand the key points of long-form podcast content without listening to the entire episode.
 
 ## 🚀 Project Overview
 
@@ -26,11 +26,10 @@ AI-Podcast Summarizer transcribes spoken audio and passes it through an advanced
 
 ## 🛠️ Technology Stack
 
-- **Backend**: Python, FastAPI
-- **Transcription**: OpenAI Whisper / Faster-Whisper (on CPU/GPU)
-- **Summarization**: Hugging Face Transformers (e.g., BART, T5)
-- **Audio Processing**: PyDub, FFmpeg
-- **Environment**: Docker (for containerized execution)
+- **Backend**: Python, Flask
+- **Transcription**: OpenAI Whisper (on CPU/GPU)
+- **Summarization**: Hugging Face Transformers (Facebook/LargeCNN)
+- **Audio Processing**: FFmpeg
 
 ## 📝 Getting Started
 
@@ -58,9 +57,9 @@ AI-Podcast Summarizer transcribes spoken audio and passes it through an advanced
 
 4. **Run the Application**
    ```bash
-   python main.py
+   python app.py
 
 ## 🎉 Usage
-**Upload Audio File** : Provide an audio file (e.g., .mp3, .wav).
+**Upload Podcast Link** : Provide a Link(e.g Youtube)
 **Processing**: The backend transcribes and summarizes the content.
 **Receive Output**: A clean text summary is returned instantly.
