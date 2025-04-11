@@ -60,6 +60,6 @@ AI-Podcast Summarizer transcribes spoken audio and passes it through an advanced
    python app.py
 
 ## 🎉 Usage
-**Upload Podcast Link** : Provide a Link(e.g Youtube)
-**Processing**: The backend transcribes and summarizes the content.
-**Receive Output**: A clean text summary is returned instantly.
+- **Upload Podcast Link** : Provide a Link(e.g Youtube)
+- **Processing**: The backend transcribes and summarizes the content.
+- **Receive Output**: A clean text summary is returned instantly.
