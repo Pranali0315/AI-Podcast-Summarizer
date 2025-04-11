@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # YouTube API Key (Replace with your actual API key)
-YOUTUBE_API_KEY = "AIzaSyAExb8CUloM-Ltz8uXBULxiLG7UFkU1W20"
+YOUTUBE_API_KEY = "Add_Your_API_Key"
 
 def search_related_videos_tfidf(transcription):
     """Find semantically similar videos using TF-IDF approach."""
