@@ -2,6 +2,16 @@
 
 **AI-Podcast Summarizer** is an open-source tool designed to generate clean and concise summaries from podcast. By processing uploaded links using state-of-the-art AI models, it helps users quickly understand the key points of long-form podcast content without listening to the entire episode.
 
+## 📚 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## 🚀 Project Overview
 
 AI-Podcast Summarizer transcribes spoken audio and passes it through an advanced language model to generate meaningful summaries. The project is designed to work entirely in the backend and does not store any intermediate files, ensuring a lightweight and fast experience.
@@ -14,15 +24,6 @@ AI-Podcast Summarizer transcribes spoken audio and passes it through an advanced
 - **Open-Source & Customizable**: Easy to modify and extend for other use cases.
 - **Clean Output**: Provides a simple and user-friendly summary of lengthy audio.
 
-## 📚 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🛠️ Technology Stack
 
